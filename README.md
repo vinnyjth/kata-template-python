@@ -1,2 +1,2 @@
-# kata-template-typescript
-Kata starter template to use with typescript
+# kata-template-typescrip
+tStarter template project to use for katas using typescript
