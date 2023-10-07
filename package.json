@@ -7,11 +7,9 @@
   },
   "scripts": {
     "jest": "yarn jest:unit",
-    "jest:unit": "jest --config jest.unit.config.js",
-
+    "jest:unit": "jest --config jest.unit.config.ts",
     "vitest": "yarn vitest:unit",
     "vitest:unit": "vitest --run --config vite.unit.config.ts",
-
     "test:all": "yarn jest && yarn vitest"
   },
   "devDependencies": {
