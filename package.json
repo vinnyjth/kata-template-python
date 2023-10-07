@@ -6,8 +6,13 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "jest": "jest --config jest.config.js",
-    "vitest": "vitest --config vite.config.ts"
+    "jest": "yarn jest:unit",
+    "jest:unit": "jest --config jest.unit.config.js",
+
+    "vitest": "yarn vitest:unit",
+    "vitest:unit": "vitest --run --config vite.unit.config.ts",
+
+    "test:all": "yarn jest && yarn vitest"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
