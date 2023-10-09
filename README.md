@@ -6,6 +6,7 @@ Starter template project to use for katas using typescript
 
 - [Node 20](https://nodejs.org)
 - [yarn](https://yarnpkg.com)
+- [VSCode](https://code.visualstudio.com) (Preferred)
 
 # Getting Started with the template
 
